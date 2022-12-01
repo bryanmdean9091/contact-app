@@ -1,0 +1,25 @@
+.formWrap {
+   display: flex;
+   justify-content: center;
+}
+
+.form-label {
+  float: left;
+}
+
+input {
+    border: .10rem solid black;
+    border-radius: .25rem;
+    width: 100%;
+
+}
+
+.formBtnBox {
+   display: flex;
+   justify-content: center;   
+}
+
+.submit {
+ width: 100%;
+ border: .10rem solid black;
+}

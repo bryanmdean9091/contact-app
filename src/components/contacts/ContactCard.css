@@ -1,0 +1,62 @@
+
+.card-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2rem ;
+    margin-right: 2rem;
+}
+
+
+.cardPill {
+    display: flex;
+    border: .10rem solid black;
+    border-radius: .5rem;
+    width: 30rem;
+    height: auto;
+    box-shadow: .05rem .1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.profilePic {
+    align-self: center;
+    padding: .5rem;
+    height: auto;
+    width: 6rem;
+    border-radius: 50%;
+  
+}
+
+.face {
+    border-radius: 50%;
+    height: auto;
+    max-width: 5rem;
+    overflow: hidden;
+}
+ 
+ .cardInfo {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+ p {
+    font-weight: 600;
+    font-size: large;
+    color: darkslategrey;
+ } 
+
+  .xBtnBox {
+    align-self: center;
+    margin-left: 14rem; 
+ }
+
+ .xBtn {
+
+  border-radius: 50%; 
+  background-color: darkslategrey;
+  color: white;
+ } 
